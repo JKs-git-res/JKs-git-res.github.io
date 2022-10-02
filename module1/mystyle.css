@@ -1,5 +1,22 @@
 h1 {
-  font-size: 40px;
+  font-size: 160%;
   color: #505050;
   text-align: center;
+}
+
+h2 {
+  font-size: 140%;
+  color: darkred;
+  font-style: italic;
+  font-weight: bold;
+}
+
+ol li:nth-child(odd) {
+  background-color: lightslategrey;
+  
+}
+
+ol li:hover {
+  background-color: green;
+  cursor: pointer;
 }
