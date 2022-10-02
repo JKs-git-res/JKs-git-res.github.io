@@ -1,6 +1,6 @@
 h1 {
   font-size: 160%;
-  color: #505050;
+  color: #594b08;
   text-align: center;
 }
 
@@ -9,6 +9,24 @@ h2 {
   color: darkred;
   font-style: italic;
   font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+}
+
+#box {
+  background-color: blue;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 400px;
+}
+
+#content {
+  background-color: #90EE90
 }
 
 ol li:nth-child(odd) {
