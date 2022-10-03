@@ -1,8 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 160%;
   color: #594b08;
   text-align: center;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -24,19 +28,66 @@ body {
   border: 5px solid black;
   margin: 40px;
   width: 400px;
+  height: 100px;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 #content {
-  background-color: #90EE90
+  background-color: #90ee90;
+  height: auto;
+}
+
+#bg {
+  width: 500px;
+  height: 250px;
+  background-size: 500px;
+  background-color: blue;
+  background-image: url("guitar.jpg");
+  background-repeat: no-repeat;
 }
 
 ol li:nth-child(odd) {
   background-color: lightslategrey;
-  
 }
 
 ol li:hover {
   background-color: green;
   cursor: pointer;
+}
+
+.columns {
+  width: 50%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+}
+
+p{
+  width: 50px;
+  height: 50px;
+
+}
+
+#p1 {
+  background-color: #a52a2a;
+  
+}
+
+#p2 {
+  background-color: #deb887;
+
+}
+
+#p3 {
+  background-color: #5f9ea0;
+  
+}
+
+#p4 {
+  background-color: #ff7f50;
+}
+
+section {
+  clear: left;
 }
