@@ -67,7 +67,7 @@ p {
   border: 1px solid black;
   margin-bottom: 15px;
   width: 50px;
-  height: 50px;
+  height: auto;
 }
 
 #p1 {
@@ -79,16 +79,29 @@ p {
 }
 
 #p3 {
-  background-color: #a52a2a;
+  background-color: #14bcde;
   width: 300px;
   height: 300px;
 }
 #p4 {
-  background-color: #deb887;
+  background-color: #00ff4c;
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+#p5 {
+  background-color: #594b08;
+  width: 50px;
+  height: 50px;
+  float:inline-start;
+}
+
+#p6 {
+  background-color: #db0f78;
   width: 50px;
   height: 50px;
 }
-
 section {
   clear: left;
 }
